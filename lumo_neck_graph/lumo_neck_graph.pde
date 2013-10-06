@@ -3,7 +3,7 @@ Serial myPort;        // The serial port
 float xPos = 0;             // horizontal position of the graph
  
 void setup () {
-  size(800, 600);        // window size
+  size(300, 300);        // window size
  
   // List all the available serial ports
   println(Serial.list());
@@ -11,7 +11,7 @@ void setup () {
   String portName = Serial.list()[8];
   myPort = new Serial(this, portName, 9600);
  
-  background(#EDA430);
+  background(#1ABC9C);
 }
  
 void draw () {
@@ -26,14 +26,14 @@ void serialEvent (Serial myPort) {
  
   float yPos = height - inByte;
   // draw the line in a pretty color:
-  stroke(#A8D9A7);
+  stroke(#EA2E49);
   line(xPos, height, xPos, height - inByte);
  
   // at the edge of the screen, go back to the beginning:
   if (xPos >= width) {
     xPos = 0;
     // clear the screen by resetting the background:
-    background(#081640);
+    background(#F1C40F);
   }
   else {
     // increment the horizontal position for the next reading:
