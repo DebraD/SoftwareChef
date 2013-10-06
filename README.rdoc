@@ -1,0 +1,27 @@
+==LumaNeck
+============
+
+
+=== Description
+Project built during the two day Silicon Chef Hackaton.  Stores and analyzes neck position to alert user of poor posture habits.
+
+
+== Hardware Used
+* Arduino
+* Bread Board
+* 16x2 White on Black LCD (with headers)
+* Flex sensor
+* 6' USB Cable
+* LED
+* Piezo Buzzer
+* 330 and 10K Resistors
+
+
+== Team Members
+* Harveen Sethi
+* Nichoel Thorne 
+* Chantal Emmanuel
+* Debra Do
+* Shalini Agarwal
+* Kate Yuen
+
